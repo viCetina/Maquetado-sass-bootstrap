@@ -1,0 +1,13 @@
+/* Sections */
+
+section {
+	padding-top:30px;
+}
+
+.section-primary {
+	@include add-background($primary-color);
+}
+
+.section-light {
+	@include add-background($light-color);
+}

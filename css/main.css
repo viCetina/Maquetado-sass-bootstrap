@@ -1,0 +1,227 @@
+/* BASE - styles, variables, mixins */
+/* Font */
+/* Colors */
+/* Mixins */
+h1, h2, h3, h4, h5 {
+  margin-top: 0; }
+
+.page-header {
+  margin-top: 30px; }
+
+.no-pad-top {
+  padding-top: 0; }
+
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/* Image Sizes */
+.img-xsm {
+  width: 100px; }
+
+.img-sm {
+  width: 200px; }
+
+.img-lg {
+  width: 400px; }
+
+.img-xlg {
+  width: 700px; }
+
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666; }
+
+a {
+  color: #0074D9; }
+
+ul, li {
+  list-style: none; }
+
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px; }
+
+img.device {
+  width: 100%; }
+
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px; }
+
+.modal-body p {
+  color: #666666; }
+
+/* MODULES - components */
+/* Lists */
+.list, .list-feature {
+  margin-bottom: 30px; }
+
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%; }
+  .list-feature li {
+    line-height: 3.6em;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto; }
+  .list-feature li:last-child {
+    border: 0; }
+  .list-feature span {
+    vertical-align: top;
+    padding-top: 9px;
+    font-size: 120%; }
+  .list-feature i {
+    margin-top: -9px;
+    margin-right: 5px; }
+
+/* Icons */
+.fa-2 {
+  font-size: 18px; }
+
+.fa-3 {
+  font-size: 24px; }
+
+.fa-4 {
+  font-size: 27px; }
+
+.fa-5 {
+  font-size: 35px; }
+
+.fa-6 {
+  font-size: 40px; }
+
+.fa-primary {
+  color: #0074D9; }
+
+.fa-border {
+  border: 1px solid #0074D9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px; }
+
+/* Emphasis Text */
+.em-primary {
+  color: #0074D9; }
+
+.em-dark {
+  color: #001f3f; }
+
+/* Blocks */
+.block, .block-primary, .block-secondary, .block-light {
+  padding: 15px;
+  margin-bottom: 15px; }
+  .block h3, .block-primary h3, .block-secondary h3, .block-light h3 {
+    margin-top: 0;
+    padding-top: 0; }
+  .block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe {
+    width: 100%; }
+
+.block-primary {
+  background: #0074D9;
+  color: #ffffff; }
+
+.block-secondary {
+  background: #2ECC40;
+  color: #ffffff; }
+
+.block-light {
+  background: #e4eef2;
+  color: #666666; }
+
+.block-center {
+  text-align: center !important; }
+
+.block-image img {
+  width: 100%; }
+
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #0074D9;
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px; }
+.block-primary-head .block-content {
+  border: 1px solid #0074D9;
+  padding: 10px; }
+
+/* Buttons */
+.btn-primary {
+  background: #0074D9;
+  color: #ffffff;
+  border: 2px solid #ffffff; }
+
+.btn-primary:hover {
+  background: #0059a6;
+  border: 2px solid #ffffff; }
+
+/* Sections */
+section {
+  padding-top: 30px; }
+
+.section-primary {
+  background: #0074D9;
+  color: #ffffff; }
+
+.section-light {
+  background: #e4eef2;
+  color: #666666; }
+
+/* LAYOUTS - styles */
+/* Navbar */
+.navbar {
+  width: 100%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px; }
+  .navbar a {
+    color: #0074D9 !important;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    padding-bottom: 24px !important;
+    padding-top: 20px !important; }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #0074D9 !important;
+  color: #fff !important; }
+
+/* Footer */
+.footer-main {
+  background: #001f3f;
+  color: #ffffff;
+  border-top: 5px solid #2ECC40;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100; }
+  .footer-main a {
+    color: #ffffff; }
+  .footer-main ul {
+    margin: 0;
+    padding: 0; }
+  .footer-main li {
+    line-height: 1.8em;
+    list-style: none; }
+
+@media (max-width: 768px) {
+  .device {
+    display: block;
+    margin: 20px auto 0 auto; }
+
+  .device-small {
+    margin-bottom: 20px !important; }
+
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */

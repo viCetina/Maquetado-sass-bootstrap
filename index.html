@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Vi test Bootstrap">
+	<meta name="description" content="Vi test Bootstrap">
+	<title>DTW</title>
+
+    <!-- css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<!-- font -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<!-- el fav -->
+	<link rel="shortcut icon" href="images/favicon-bullseye.ico">
+  </head>
+
+  <body>
+  	<!-- nav -->
+	<header class="header-main">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand fa fa-bullseye" href="#"> DTW</a>
+			</div>
+			<div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Uno</a></li>
+				<li><a href="#">Dos</a></li>
+				<li><a href="#">Tres</a></li>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cuatro <span class="caret"></span></a>
+		            <ul class="dropdown-menu">
+		              <li>
+						<div class="col-md-12">
+							<div class="block block-light block-center">
+								<i class="fa fa-fighter-jet fa-primary fa-6 fa-border"></i>
+								<p>Secreto 1</p>
+									<button type="button" class="btn btn-success">Link 1</button>
+							</div>
+						</div>
+					  </li>
+		              <li>
+						  <div class="col-md-12">
+								<div class="block block-light block-center">
+									<i class="fa fa-gamepad fa-primary fa-6 fa-border"></i>
+									<p>Secreto 2</p>
+									<button type="button" class="btn btn-info">Link 2</button>
+								</div>
+							</div>
+					  </li>
+		              <li>
+						  <div class="col-md-12">
+								<div class="block block-light block-center">
+									<i class="fa fa-glass fa-primary fa-6 fa-border"></i>
+									<p>Secreto 3</p>
+									<button type="button" class="btn btn-warning">Link 3</button>
+								</div>
+							</div>
+					  </li>
+		              <li>
+						  <div class="col-md-12">
+								<div class="block block-light block-center">
+									<i class="fa fa-headphones fa-primary fa-6 fa-border"></i>
+									<p>Secreto 4</p>
+									<button type="button" class="btn btn-danger">Link 4</button>
+								</div>
+							</div>
+					  </li>
+		            </ul>
+		        </li>
+			  </ul>
+		  </div>
+		</div>
+	</header>
+	
+		<!-- slider -->
+		<section class="section-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- indicators -->
+						  <ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						  </ol>
+						  <!-- images -->
+						  <div class="carousel-inner">
+							<div class="item active">
+							  <img src="images/slide1.jpg" alt="1">							
+							</div>
+							<div class="item">
+							  <img src="images/slide2.jpg" alt="2">		
+							</div>
+							<div class="item">
+							  <img src="images/slide3.jpg" alt="3">					
+							</div>
+						  </div>
+
+						  <!-- controls -->
+						  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section>
+		<div class="container">
+			<div class="row">	
+				<!--video-->
+				<div class="col-md-4 wow bounceIn" data-wow-delay="0.3s" >
+					<div class="block block-secondary">
+						<h3><i class="fa fa-video-camera"></i> Video</h3>
+						<p>
+							Curabitur dignissim eu eros sed semper. Morbi iaculis nec tortor et accumsan. Proin interdum efficitur sodales. Pellentesque habitant morbi tristique senectus et netus.
+						</p>
+						
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Watch Video</button>
+
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									
+								</div>
+								<div class="modal-body">
+									<iframe width="308" height="360" src="http://www.youtube.com/embed/YDxynPdhm3Q" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>	
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!--imagen-->
+				<div class="col-md-4">
+					<div class="block block-primary">
+						<h3><i class="fa fa-picture-o"></i> Image</h3>
+						<p>
+							Nullam ac lobortis mi. Nulla molestie tincidunt felis, eget placerat tempus enim luctus at. Nam eu tellus a velit pulvinar ut laoreet quam porttitor egestas ac finibus eros.
+						</p>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">See picture</button>
+					
+						<div id="myModal2" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body text-center">
+									<img width="308" height="360" src="images/c.jpg" alt="xx">
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!--post-->
+				<div class="col-md-4">
+					<div class="block block-secondary">
+						<h3><i class="fa fa-at"></i> Post</h3>
+						<p>
+							Pellentesque eget lorem magna. Aliquam ornare tristique nisi ut rhoncus. Curabitur vel arcu metus. Suspendisse turpis turpis, egestas a magna eget, suscipit cursus nisi.
+						</p>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3">Read More</button>
+						<div id="myModal3" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>	
+								</div>
+								<div class="modal-body">
+									<p>"Hola, soy un modal"</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-light extra-pad">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="page-header">Vestibulum <span class="em-primary"> antomno</span> ipsum</h2>
+					<ul class="list list-feature">
+						<li><i class="fa fa-bomb fa-5"></i> <span>Lorem ipsum dolor</span></li>
+						<li><i class="fa fa-ban fa-5"></i> <span>Lorem ipsum dolor</span></li>
+						<li><i class="fa fa-asterisk fa-5"></i> <span>Lorem ipsum dolor</span></li>
+						<li><i class="fa fa-beer fa-5"></i> <span>Lorem ipsum dolor</span></li>
+					</ul>
+					<br>
+					<a href="#" class="btn btn-primary btn-lg">Click me not</a>
+				</div>
+				<div class="col-md-6">
+					<img class="device" src="images/1.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-primary extra-pad">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 ">
+					<img class="device device-small" src="images/3.png">
+				</div>
+				<div class="col-md-6">
+					<h2 class="page-header">Praesent dui turpis, <span class="em-dark"> rhoncus</span> et cursus</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit Phasellus et odio. Aliquam ornare consectetur fringilla. Sed efficitur <span class="em-dark"> tempusno</span> semper. Morbi pulvinar tristique lacinia. Integer eget mattis urna, eget blandit erat ut orci luctus. <br>Phasellus pulvinar rutrum est. Proin lacinia dictum porttitor. Integer mattis vulputate hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="#" class="btn btn-lg btn-default btn-rounded fadeIn">Don´t click me</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-light extra-pad">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="block block-primary-head no-pad">
+						<h3><i class="fa fa-play-circle"></i> Mira el Video</h3>
+						<div class="block-content">
+							<iframe width="308" height="360" src="http://www.youtube.com/embed/YDxynPdhm3Q" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="device"src="images/2.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h3>Cinco</h3>
+					<ul>
+						<li><a href="#">Menu 1</a></li>
+						<li><a href="#">Menu 2</a></li>
+						<li><a href="#">Menu 3</a></li>
+						<li><a href="#">Menu 4</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Seis</h3>
+					<ul>
+						<li><a href="#">Otro menu</a></li>
+						<li><a href="#">y otro</a></li>
+						<li><a href="#">Menu 7</a></li>
+						<li><a href="#">Menu 8</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Siete</h3>
+					<ul>
+						<li><a href="#">Only</a></li>
+						<li><a href="#">contact</a></li>
+						<li><a href="#">menu</a></li>
+						<li><a href="#">works</a></li>
+					</ul>
+				</div>		
+				<div class="col-md-3">
+					<h3>Contact</h3>
+					<ul>
+						<li>Vi Battistini</a></li>
+						<li>-------------</a></li>
+						<li><a href="http://cargocollective.com/vibattistini" target="_blank">Portfolio</a></li>
+						<li><a href="https://github.com/viCetina" target="_blank">Git Hub</a></li>		
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <!-- js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
